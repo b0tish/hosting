@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/b0tish/Lab2/WebApp5BySaugat/WebApp5BySaugat.csproj": {}
+  },
+  "projects": {
+    "/home/b0tish/Lab2/WebApp5BySaugat/WebApp5BySaugat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/b0tish/Lab2/WebApp5BySaugat/WebApp5BySaugat.csproj",
+        "projectName": "WebApp5BySaugat",
+        "projectPath": "/home/b0tish/Lab2/WebApp5BySaugat/WebApp5BySaugat.csproj",
+        "packagesPath": "/home/b0tish/.nuget/packages/",
+        "outputPath": "/home/b0tish/Lab2/WebApp5BySaugat/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/b0tish/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0-preview.2.25163.8, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.70.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.3.efcore.9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/b0tish/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
