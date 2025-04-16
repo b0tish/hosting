@@ -10,4 +10,4 @@ RUN dotnet publish -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "Lab23App.dll"]
+ENTRYPOINT ["dotnet", "WebApp5BySaugat.dll"]
